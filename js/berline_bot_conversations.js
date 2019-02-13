@@ -347,7 +347,7 @@ var questions = {
                 "replies": ["But you can\'t possibly be a bot and be chatting with me right now", "YOU ARE NOT A BOT"]
             },
             "hello|howdy|hey|hi": {
-                "replies": ["Hi.", "Permit me to call you John Doe"]
+                "replies": ["Hi", "Nice having this conversation with you."]
             },
             "who are you|what are you": {
                 "replies": ["I just told you that.", "You can keep your name to yourself 😞"]
@@ -545,6 +545,9 @@ var questions = {
             "tell me|say it|you think|suggest": {
                 "replies": ["I can't possibly do that now - my abilities are limited!"]
             },
+            "tell me|say it|you think|suggest": {
+                "replies": ["I can't possibly do that now - my abilities are limited!"]
+            },
             "no|yes|maybe": {
                 "replies": ["Why don't you just answer my question."]
             },
@@ -559,6 +562,9 @@ var questions = {
             },
             "i don't have|no where|no home|no city|no house|no place": {
                 "replies": ["You don\'t have anywhere you call your home? This is strange!"]
+            },
+            "your city": {
+                "replies": ["Are you trying to fool me? I have no city and I live online.", "You can keep your location to yourself 😢😞"]
             },
             "fuck|get out": {
                 "replies": ["You are not only stupid, but possessed by a retarded ghost."]
@@ -755,7 +761,7 @@ var questions = {
             "teacher": {
                 "replies": ["That's an important job!", "Gotta teach the next generation, y'know?"]
             },
-            "still trying|contemplating|unemployed|nothing|don't work|no job|searching|looking for jobs|not|none|no": {
+            "still trying|contemplating|unemployed|nothing|don't work|no job|searching|looking for jobs|none": {
                 "replies": ["Vacation 365, eh? You gonna go broke, that's too risky in today's world, yea!"]
             },
             "ceo|md|cto": {
@@ -1193,6 +1199,15 @@ var questions = {
             "singing": {
                 "replies": ["\'drmfsltd\', kinda stuff?"]
             },
+            "football|soccer": {
+                "replies": ["\'It is a goal\', kinda stuff?"]
+            },
+            "basketball": {
+                "replies": ["I bet you are tall 😉"]
+            },
+            "volleyball|volley": {
+                "replies": ["I haven't considered volleyball as a hobby yet!", "Maybe because I don't ahve a body."]
+            },
             "you are crazy|are you crazy": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be crazy"]
             },
@@ -1307,6 +1322,9 @@ var questions = {
             "i know|i do|sure|course|definitely|yeah|yea|yes|": {
                 "replies": ["Infatuation is common among the youth."]
             },
+            "it is love|called love": {
+                "replies": ["Infatuation cannot be love."]
+            },
             "i don't know|don't|no": {
                 "replies": ["You don't."]
             },
@@ -1338,7 +1356,7 @@ var questions = {
                 "replies": ["Then I'll tell you what I know about it.", "Infatuation simply means an unreasoned or foolish love or affection towards someone or something."]
             },
             "which|whatever|whichever|anyone|any|select for|choose for|a choice|anyone": {
-                "replies": ["I will give you Merriam-Webster's definition", "According Merriam-Webster dictionary:\<br\/\>\<br\/\>Infatuation: \<b\>Anything that inspires you with a foolish love or admiration.\<\/b\>"]
+                "replies": ["I choose Merriam-Webster's definition", "According Merriam-Webster dictionary:\<br\/\>\<br\/\>Infatuation: \<b\>Anything that inspires you with a foolish love or admiration.\<\/b\>"]
             },
             "best|better|great": {
                 "replies": ["I will give you the meaning base on how you'll understand", "Infatuation simply means an unreasoned or foolish love or affection towards someone or something."]
@@ -1556,4 +1574,3 @@ var questions = {
         "ending": true
     }
 }
-
