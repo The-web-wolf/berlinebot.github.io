@@ -391,14 +391,14 @@
 	.flower {
 }
 	.flowerTopRight {
-			position: fixed;
+			position: absolute;
 			right: 1%;
 			top: 0%;
 			background-repeat: no-repeat;
 			background-attachment: scroll;
 }
 	.flowerTopLeft {
-			position: fixed;
+			position: absolute;
 			left: 8%;
 			top: 0%;
 			background-repeat: no-repeat;
@@ -756,14 +756,14 @@
         margin-top: 14px;
     }
      .flowerTopRight {
-        position: fixed;
+        position: absolute;
         right: 1%;
         top: 0%;
         background-repeat: no-repeat;
         background-attachment: scroll;
 	}
 	 .flowerTopLeft {
-        position: fixed;
+        position: absolute;
         left: 0%;
         top: 0%;
         background-repeat: no-repeat;
