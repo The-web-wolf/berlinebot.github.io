@@ -1,7 +1,7 @@
 //Toggle SideNav Description when Title is clicked
 $(document).ready(function() {
     $("#t1,#bug").click(function() {
-        $("#d1").toggleClass("displayNone");
+        a$("#d1").toggleClass("displayNone");
     });
     $("#t2,#feature").click(function() {
         $("#d2").toggleClass("displayNone");
