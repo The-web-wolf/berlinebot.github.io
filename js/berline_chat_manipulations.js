@@ -1,7 +1,7 @@
 //Toggle SideNav Description when Title is clicked
 $(document).ready(function() {
     $("#t1,#bug").click(function() {
-        a$("#d1").toggleClass("displayNone");
+        $("#d1").toggleClass("displayNone");
     });
     $("#t2,#feature").click(function() {
         $("#d2").toggleClass("displayNone");
@@ -181,6 +181,13 @@ $(document).ready(function() {
         $("#chat-container").show();
         $("#closeNav").hide();
         $("#openNav").show();
+        $("#chat").addClass("active");
+        $("#about").removeClass("active");
+
+        //Special case for chat
+        if ($(".active").attr('id') == "chat") {
+            smoothScrollBottom();
+        }
 
         // Close the SideNav
         $("#d1").addClass("displayNone");
