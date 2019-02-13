@@ -25,13 +25,18 @@
      -webkit-tap-highlight-color: transparent;
     /* Removes the blue highlight when button tapped on mobile */
 }
- input {
+ input, textarea, [contenteditable] {
      width: auto;
+     -webkit-text-fill-color: inherit;
      -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
      -o-box-sizing: border-box;
      -ms-box-sizing: border-box;
      box-sizing: border-box;
+     caret-color: #ffffff;
+     color: #ffffff;
+     display: block;
+     margin-bottom: .5em;
 }
  a, a:visited {
      color: #cc99ff;
@@ -65,12 +70,14 @@
      border-radius: 32px;
      padding-bottom: ;
      display: inline-block;
-     margin-left: calc(10% + 14px);
-     margin-top: 14px;
      background-color: inherit !important;
      text-align: left;
      text-shadow: 0 0 2px grey;
      font-size: 16px;
+}
+ .copyText {
+     margin-left: calc(12% + 20px);
+     margin-top: 14px;
 }
  .copy a {
      text-decoration: none;
@@ -229,6 +236,11 @@
  ::-webkit-input-placeholder {
      color: #eee6ff;
 }
+	input::-webkit-input-placeholder {
+				color: #eee6ff;
+				text-shadow: none;
+				-webkit-text-fill-color: initial;
+}
  .chatImg{
      height: 90px;
      width: 90px;
@@ -237,6 +249,9 @@
      display: inline-block;
      margin: 0 0 16px 0;
      background-color: #fdf5fc;
+     position: relative;
+     top: auto;
+     left: auto;
 }
  #BerlineImg1, #BerlineImg2 {
      transition: 0.3;
@@ -372,6 +387,22 @@
      overflow-x: hidden;
      transition: 0.5s;
      padding-top: 60px;
+}
+	.flower {
+}
+	.flowerTopRight {
+			position: absolute;
+			right: 1%;
+			top: 0%;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+}
+	.flowerTopLeft {
+			position: absolute;
+			left: 8%;
+			top: 0%;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
 }
  @media screen and (max-height: 450px) {
      .sidenav {
@@ -640,6 +671,9 @@
          display: inline-block;
          margin: 0 0 8px 0;
          background-color: #fdf5fc;
+         position: relative;
+         left: auto;
+         top: auto;
     }
      .noJS {
          position: fixed;
@@ -717,6 +751,24 @@
          transition: 0.5s;
          padding-top: 60px;
     }
+     .copyText {
+        margin-left: calc(10% + 14px);
+        margin-top: 14px;
+    }
+     .flowerTopRight {
+        position: absolute;
+        right: 1%;
+        top: 0%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+	}
+	 .flowerTopLeft {
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+	}
 }
 /* RESPONSIVE PADDING FOR KEYBOARD DURING FULLSCREEN */
 /* Tablet desktop :768px. @media only screen and (min-width: 768px) and (max-width: 1280px) {
