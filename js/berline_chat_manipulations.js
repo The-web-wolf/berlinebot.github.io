@@ -17,10 +17,8 @@ $(document).ready(function() {
     });
 });
 
-
-
 /***********************************
-	Control Nav description		
+    Control Nav description     
 ***********************************/
 
 // Hide other nav description when #t1 is clicked
@@ -79,9 +77,8 @@ $(document).ready(function() {
 });
 
 /***********************************
-   		Control Nav description end!			
+        Control Nav description end!            
    ***********************************/
-
 
 // fadeOut the loader for Berline bot with jQuery
 
@@ -95,7 +92,6 @@ $(document).ready(function() {
 
 // ]]> 
 
-
 /************************************ 
 Display Menu when JS is enabled in browser
 ************************************/
@@ -107,10 +103,9 @@ $(document).ready(function() {
 
 // ]]> 
 
-
 /**********************************
-			Hide() the menu when Berline's image is clicked.
-			Show() the menu when #closeModals clicked.
+            Hide() the menu when Berline's image is clicked.
+            Show() the menu when #closeModals clicked.
    ***********************************/
 //For BerlineImg1
 // <![CDATA[ 
@@ -171,8 +166,6 @@ $(document).ready(function() {
 });
 // ]]> 
 
-
-
 // hide and show the menu for Berline bot with jQuery
 // <![CDATA[ 
 $(document).ready(function() {
@@ -211,7 +204,6 @@ $(document).ready(function() {
         $("#d5").addClass("displayNone");
     });
 });
-
 
 // ]]> 
 
@@ -259,10 +251,8 @@ function closeNav() {
 
 // ]]> 
 
-
-
 /****************************
-	Fullscreen Mode Start 
+    Fullscreen Mode Start 
 *******************************/
 $(document).ready(function() {
     $(".openFullScreen").click(function() {
