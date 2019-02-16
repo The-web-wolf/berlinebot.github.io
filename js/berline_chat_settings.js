@@ -5,10 +5,9 @@ var currentQuestion = 0,
 var local = (!document.location.hostname); // check if local
 // --------------------------------------- //
 
-
 /***********************************
-				TYPED JS
-	***********************************/
+                TYPED JS
+    ***********************************/
 $(document).ready(function() {
     $("#aboutHeading").typed({
         strings: ["Berline is a conversational bot.", "It discourages you from getting infatuated."],
@@ -33,25 +32,22 @@ $(document).ready(function() {
 
 });
 
-
 /***********************************
-				GREETINGS START
-	***********************************/
-
+                GREETINGS START
+    ***********************************/
 
 $(document).ready(function() {
 
     /* ========================
-		Get userName through prompt()
-		var userName = prompt("What is your name?");
-		while(userName == null || userName == "") 
-		{
-		userName = prompt("What is your name?")
-		}
-		=============================== */
+        Get userName through prompt()
+        var userName = prompt("What is your name?");
+        while(userName == null || userName == "") 
+        {
+        userName = prompt("What is your name?")
+        }
+        =============================== */
 
-
-    //	window.onload=function greet(){
+    //  window.onload=function greet(){
     var greet;
     var date = new Date();
     var sec = date.getSeconds();
@@ -59,7 +55,6 @@ $(document).ready(function() {
     var hour = date.getHours();
     var hour = date.getHours();
     var copyrightYear = date.getFullYear();
-
 
     if (hour === 5 || hour === 6 || hour === 7 || hour === 8 || hour === 9 || hour === 10 || hour === 11) {
 
@@ -94,12 +89,11 @@ $(document).ready(function() {
 });
 
 /*************************
-		 Greetings End 
+         Greetings End 
 *************************/
 
-
 /****************************
-		 Get the modal
+         Get the modal
 ****************************/
 
 $(document).ready(function() {
@@ -118,7 +112,6 @@ $(document).ready(function() {
         Uncomment caption CSS if you are going tuse this! */
         captionText.innerHTML = '<div class="line"><div class="message message-left animated bubbleLeft fadeIn">Hi. I\'m Berline</div></div> <div class="line"><div class="message message-left animated bubbleLeft fadeIn">Please click on <span class="highlight">×</span> above to continue your chat.</div></div>'; // Sets caption text
     }
-
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
     var img2 = document.getElementById('BerlineImg2');
@@ -143,7 +136,6 @@ $(document).ready(function() {
         modal.style.display = "none";
     }
 });
-
 
 // ********** CHAT SETTINGS START ********//
 
@@ -248,7 +240,6 @@ function createAnswerMessage(answer) {
         console.log(questions[currentQuestion]);
     }
 
-
     // --- ANALYTICS --- //
     var dimensions = {
         question: questions[currentQuestion].name, // Which question is this?
@@ -343,31 +334,76 @@ function tabHandler() {
 
 // Amplitude Analytics
 
-  (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
-  ;r.type="text/javascript";r.async=true
-  ;r.src="https://cdn.amplitude.com/libs/amplitude-4.4.0-min.gz.js"
-  ;r.onload=function(){if(e.amplitude.runQueuedFunctions){
-  e.amplitude.runQueuedFunctions()}else{
-  console.log("[Amplitude] Error: could not load SDK")}}
-  ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
-  ;function s(e,t){e.prototype[t]=function(){
-  this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
-  var o=function(){this._q=[];return this}
-  ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
-  ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
-  ;return this}
-  ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
-  ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
-  ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
-  ;function v(e){function t(t){e[t]=function(){
-  e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
-  for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
-  e=(!e||e.length===0?"$default_instance":e).toLowerCase()
-  ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
-  ;e.amplitude=n})(window,document);
+(function(e, t) {
+    var n = e.amplitude || {
+        _q: [],
+        _iq: {}
+    };
+    var r = t.createElement("script");
+    r.type = "text/javascript";
+    r.async = true;
+    r.src = "https://cdn.amplitude.com/libs/amplitude-4.4.0-min.gz.js";
+    r.onload = function() {
+        if (e.amplitude.runQueuedFunctions) {
+            e.amplitude.runQueuedFunctions()
+        } else {
+            console.log("[Amplitude] Error: could not load SDK")
+        }
+    };
+    var i = t.getElementsByTagName("script")[0];
+    i.parentNode.insertBefore(r, i);
 
-  amplitude.getInstance().init("111e23aa04758bb44c182605a4a7a536");
+    function s(e, t) {
+        e.prototype[t] = function() {
+            this._q.push([t].concat(Array.prototype.slice.call(arguments, 0)));
+            return this
+        }
+    }
+    var o = function() {
+        this._q = [];
+        return this
+    };
+    var a = ["add", "append", "clearAll", "prepend", "set", "setOnce", "unset"];
+    for (var u = 0; u < a.length; u++) {
+        s(o, a[u])
+    }
+    n.Identify = o;
+    var c = function() {
+        this._q = [];
+        return this
+    };
+    var l = ["setProductId", "setQuantity", "setPrice", "setRevenueType", "setEventProperties"];
+    for (var p = 0; p < l.length; p++) {
+        s(c, l[p])
+    }
+    n.Revenue = c;
+    var d = ["init", "logEvent", "logRevenue", "setUserId", "setUserProperties", "setOptOut", "setVersionName", "setDomain", "setDeviceId", "setGlobalUserProperties", "identify", "clearUserProperties", "setGroup", "logRevenueV2", "regenerateDeviceId", "logEventWithTimestamp", "logEventWithGroups", "setSessionId", "resetSessionId"];
 
+    function v(e) {
+        function t(t) {
+            e[t] = function() {
+                e._q.push([t].concat(Array.prototype.slice.call(arguments, 0)))
+            }
+        }
+        for (var n = 0; n < d.length; n++) {
+            t(d[n])
+        }
+    }
+    v(n);
+    n.getInstance = function(e) {
+        e = (!e || e.length === 0 ? "$default_instance" : e).toLowerCase();
+        if (!n._iq.hasOwnProperty(e)) {
+            n._iq[e] = {
+                _q: []
+            };
+            v(n._iq[e])
+        }
+        return n._iq[e]
+    };
+    e.amplitude = n
+})(window, document);
+
+amplitude.getInstance().init("111e23aa04758bb44c182605a4a7a536");
 
 // })(); END GLOBAL
 
@@ -375,4 +411,3 @@ $(document).ready(function() {
     new storyController(questions);
     new tabHandler();
 });
-
