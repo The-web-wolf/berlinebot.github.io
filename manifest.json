@@ -1,1 +1,36 @@
 
+{
+  "short_name": "Berline bot",
+  "name": "Berline bot",
+  "icons": [
+    {
+      "src": "img/berlinebot.jpg",
+      "sizes": "16x16",
+      "type": "image/jpg"
+    },
+    {
+      "src": "img/berlinebot.jpg",
+      "sizes": "32x32",
+      "type": "image/jpg"
+    },
+    {
+      "src": "img/berlinebot.jpg",
+      "sizes": "96x96",
+      "type": "image/jpg"
+    },
+    {
+      "src": "img/berlinebot.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    },
+    {
+      "src": "img/berlinebot.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#9966ff",
+  "background_color": "#ffffff"
+}
