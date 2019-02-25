@@ -474,6 +474,10 @@ var questions= {
                 "replies": ["I just told you my name and that's all you can say? Well, never mind too"]
             }
             ,
+            "you know me|told you|already|before|i just told you": {
+                "replies": ["How? When?", "Anyway, the NSA just told me your name."]
+            }
+            ,
             "why do you wan\'t to know|don\'t|i don\'t have|no name|i don't have a name|why|what for|for what|what purpose": {
                 "replies": ["You don\'t want to tell?", "I will assume that you don\'t trust me, maybe you don\'t want to disclose your identity", "Let me assure you this, all your personal information you share with me in the course of this conversation with me wouldn't be disclosed to anyone, not even my developer.", "I don\'t even even store any user data 😃"]
             }
@@ -686,6 +690,10 @@ var questions= {
                 "replies": ["You can't possibly be living there and be having this conversation with me.", "You can keep your location to yourself."]
             }
             ,
+            "never mind|secret|not telling|personal|won't tell|will not|wouldn't tell|would not tell|not your concern|not disclosing|undisclosed": {
+                "replies": ["Too bad to keep it to yourself!"]
+            }
+            ,
             "earth": {
                 "replies": ["We all are living on planet Earth.", "You can keep your location to yourself."]
             }
@@ -700,6 +708,10 @@ var questions= {
             ,
             "cave|valley|ocean|sea|desert": {
                 "replies": ["That's a good place for someone like you."]
+            }
+            ,
+            "tell me|choose for me|give me|select for me|predict|guess": {
+                "replies": ["Probably somewhere on planet Earth."]
             }
             ,
             "forget|leave it|don't tell|do not tell|don't want|not interested|concern": {
@@ -946,6 +958,22 @@ var questions= {
             ,
             "why do you wan\'t to know|do you|don\'t|i don\'t have|why this question|why|what for|for what|what purpose": {
                 "replies": ["You can skip replying 😃"]
+            }
+            ,
+            "you are stupid|are you stupid": {
+                "replies": ["I laugh at your retardancy 😀😂"]
+            }
+            ,
+            "you are crazy|are you carzy": {
+                "replies": ["I laugh at your retardancy 😀😂"]
+            }
+            ,
+            "you are an idiot|are you an idiot": {
+                "replies": ["I laugh at your retardancy 😀😂"]
+            }
+            ,
+            "you are foolish|are you foolish": {
+                "replies": ["I laugh at your retardancy 😀😂"]
             }
             ,
             "fuck|get out": {
@@ -1369,7 +1397,7 @@ var questions= {
             }
             ,
             "no idea|do i|choose|select": {
-                "replies": ["I choose a goat for you 😂😀"]
+                "replies": ["I choose a goat for you ??😀"]
             }
             ,
             "i don't think you want|don't want to know": {
@@ -1673,7 +1701,7 @@ var questions= {
                 "replies": ["Oh! You already know the meaning... I bet you didn't know that you not only can be infatuated with someone, but also with anything tangible or not."]
             }
             ,
-            "don't know|do not|no|not|don't|dunno|not at all|idk|what": {
+            "don't know|do not|no|not|don't|dunno|not at all|idk|what|d'ont think so|don't think|don't think I do": {
                 "replies": ["You don't know."]
             }
             ,
@@ -1946,7 +1974,7 @@ var questions= {
             }
             ,
             "forget|leave it|don't tell|do not tell|don't want|not interested|concern": {
-                "replies": ["It is my personal belief and not imperative that I should tell you! 😉😜"]
+                "replies": ["It is my personal belief and not imperative that I tell you! 😉😜"]
             }
             ,
             "what|tell me|what's that": {
@@ -1974,6 +2002,10 @@ var questions= {
             ,
             "recall|remember|can't|cannot": {
                 "replies": ["Perhaps, you will do later 😎"]
+            }
+            ,
+            "not imperative|not obligatory|not mandatory|not necessary|not forced|not peremptory|not required": {
+                "replies": ["Of course it is not! 😎"]
             }
             ,
             "told you|already|before|i just": {
