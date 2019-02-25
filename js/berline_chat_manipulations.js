@@ -83,7 +83,7 @@ $(document).ready(function() {
 // fadeOut the loader for Berline bot with jQuery
 
 // <![CDATA[ 
-$(document).ready(function() {
+$(window).on('load', function () {
     $("#chat-container").ready(function() {
         $(".loader").fadeOut(600);
         $("#chat-container").fadeIn(600);
