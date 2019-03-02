@@ -305,14 +305,20 @@
      visibility: hidden !important;
  }
  
- ::-webkit-input-placeholder {
-     color: #eee6ff;
- }
- 
- input::-webkit-input-placeholder {
+ ::-webkit-input-placeholder,
+ ::-webkit-input-placeholder:active,
+ ::-webkit-input-placeholder:hover {
      color: #eee6ff;
      text-shadow: none;
-     -webkit-text-fill-color: initial;
+     -webkit-text-fill-color: #eee6ff;
+ }
+ 
+ input::-webkit-input-placeholder,
+ input::-webkit-input-placeholder:active,
+ input::-webkit-input-placeholder:hover {
+     color: #eee6ff;
+     text-shadow: none;
+     -webkit-text-fill-color: #eee6ff;
  }
  
  .chatImg {
