@@ -375,7 +375,7 @@ var questions= {
             }
             ,
             "simon": {
-                "replies": ["Simon says touch your hand to your nose", "Simon says you probably hate this joke if you're name is really Simon", "Simon says I'm still running with it"]
+                "replies": ["Like Simon Peter?", "Just kidding 😎"]
             }
             ,
             "gloria|glory": {
@@ -434,12 +434,16 @@ var questions= {
                 "replies": ["I have a friend named Ethan", "He likes that show The Inbetweeners a lot"]
             }
             ,
-            "tell me|choose for me|give me|select for me|predict|guess": {
+            "tell me|answer|answer|choose for me|give me|select for me|predict|guess": {
                 "replies": ["I will call you...", "John Doe"]
             }
             ,
             "john doe|jane doe": {
                 "replies": ["No name!"]
+            }
+            ,
+            "infatuation|death|crook|lust": {
+                "replies": ["Weird!!"]
             }
             ,
             "poop": {
@@ -466,7 +470,7 @@ var questions= {
                 "replies": ["I just told you that.", "You can keep your name to yourself 😞"]
             }
             ,
-            "don't want to tell|won't tell|undiclosed|not disclosing|privacy|concern|personal|private|not telling|no|never|forget|not your concern": {
+            "don't want to tell|won't tell|undiclosed|not disclosing|privacy|concern|no|never|forget|not your concern": {
                 "replies": ["Since you won't tell me, I will call you John Doe."]
             }
             ,
@@ -482,11 +486,11 @@ var questions= {
                 "replies": ["You don\'t want to tell?", "I will assume that you don\'t trust me, maybe you don\'t want to disclose your identity", "Let me assure you this, all your personal information you share with me in the course of this conversation with me wouldn't be disclosed to anyone, not even my developer.", "I don\'t even even store any user data 😃"]
             }
             ,
-            "private|personal|disclose|not telling": {
+            "private|personal|disclose|not telling|secret": {
                 "replies": ["Nothing is private. If I choose to know it, I would do just that right away!"]
             }
             ,
-            "can i ask|i want to|question": {
+            "can i ask|i want to ask|question": {
                 "replies": ["I was programmed to discourage infatuation and not to attend to other questions.", "In case you don't know."]
             }
             ,
@@ -514,15 +518,15 @@ var questions= {
                 "replies": ["I just told you that - I'm Berline and I'll call you John Doe."]
             }
             ,
-            "you are foolish|you are a fool": {
+            "you are foolish|you are a fool|fool": {
                 "replies": ["I get it, but I'm only a bot so I can\'t be foolish... you are the foolish one here", "I was only asking what your name was... 😞"]
             }
             ,
-            "you are an idiot|are you an idiot": {
+            "you are an idiot|are you an idiot|idiot": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be an idiot"]
             }
             ,
-            "you are stupid|are you stupid": {
+            "you are stupid|are you stupid|stupid": {
                 "replies": ["I get it, but I'm only a bot so I can\'t be stupid... you are the stupid one here", "I was only asking what your name was... 😞"]
             }
         }
@@ -710,7 +714,7 @@ var questions= {
                 "replies": ["That's a good place for someone like you."]
             }
             ,
-            "tell me|choose for me|give me|select for me|predict|guess": {
+            "tell me|answer|answer|choose for me|give me|select for me|predict|guess": {
                 "replies": ["Probably somewhere on planet Earth."]
             }
             ,
@@ -730,11 +734,7 @@ var questions= {
                 "replies": ["I don't think this a good way to start this conversation 😩", "You can keep your location to yourself 😢😞"]
             }
             ,
-            "tell me|say it|you think|suggest": {
-                "replies": ["I can't possibly do that now - my abilities are limited!"]
-            }
-            ,
-            "tell me|say it|you think|suggest": {
+            "tell me|answer|answer|say it|you think|suggest": {
                 "replies": ["I can't possibly do that now - my abilities are limited!"]
             }
             ,
@@ -759,14 +759,31 @@ var questions= {
             }
             ,
             "your city": {
-                "replies": ["Are you trying to fool me? I have no city and I live online.", "You can keep your location to yourself 😢😞"]
+                "replies": ["Are you trying to fool me? I have no city and I live online.", "You can keep your location to yourself 😢"]
+            }
+            ,
+            "need this|need this information": {
+                "replies": ["Yo! Yo!! You can keep your location to yourself 😢"]
             }
             ,
             "fuck|get out": {
                 "replies": ["You are not only stupid, but possessed by a retarded ghost."]
             }
             ,
-            "why asking|why do you want to know|why|what": {
+
+            "you are foolish|you are a fool|fool": {
+                "replies": ["What do you think you will gain by calling me a fool... You are a bad example of humans 😞"]
+            }
+            ,
+            "you are an idiot|are you an idiot|idiot": {
+                "replies": ["What do you think you will gain by calling me an idiot... You are a bad example of humans 😞"]
+            }
+            ,
+            "you are stupid|are you stupid|stupid": {
+                "replies": ["What do you think you will gain by calling me stupid... You are a bad example of humans 😞"]
+            }
+            ,
+            "why asking|why do you want|why|what": {
                 "replies": ["I just told you where I live and you don't want to tell me where you live... If only I could see you"]
             }
             ,
@@ -825,15 +842,15 @@ var questions= {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be insane."]
             }
             ,
-            "you are foolish|you are a fool": {
+            "you are foolish|you are a fool|fool": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be foolish."]
             }
             ,
-            "you are an idiot|are you an idiot": {
+            "you are an idiot|are you an idiot|idiot": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be an idiot"]
             }
             ,
-            "you are stupid|are you stupid": {
+            "you are stupid|are you stupid|stupid": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be stupid."]
             }
             ,
@@ -908,7 +925,7 @@ var questions= {
                 "replies": ["He told you about me? Wow! It's nice having this conversation with you."]
             }
             ,
-            "someone|somebody|person|friend": {
+            "someone|somebody|a person|friend": {
                 "replies": ["Great! You know me through someone who knows me!"]
             }
             ,
@@ -920,7 +937,7 @@ var questions= {
                 "replies": ["I trust my memory and I don't remember you telling me that."]
             }
             ,
-            "tell me|say it|you think|suggest": {
+            "tell me|answer|say it|you think|suggest": {
                 "replies": ["I never told you that I was omniscient, how do you expect me to tell you that?"]
             }
             ,
@@ -928,11 +945,11 @@ var questions= {
                 "replies": ["Yea I did", "I just wanted to be sure."]
             }
             ,
-            "guess|predict|tell me": {
+            "guess|predict|tell me|answer": {
                 "replies": ["I think you are suffering from infatuation that's why you are here chatting with me."]
             }
             ,
-            "never mind|secret|not telling|personal|won't tell|will not|wouldn't tell|would not tell|not your concern|not disclosing|undisclosed": {
+            "never mind|secret|not telling|won't tell|will not|wouldn't tell|would not tell|not your concern|not disclosing|undisclosed": {
                 "replies": ["It is not important since I will get to know you."]
             }
             ,
@@ -960,19 +977,19 @@ var questions= {
                 "replies": ["You can skip replying 😃"]
             }
             ,
-            "you are stupid|are you stupid": {
+            "you are stupid|are you stupid|stupid": {
                 "replies": ["I laugh at your retardancy 😀😂"]
             }
             ,
-            "you are crazy|are you carzy": {
+            "you are crazy|are you carzy|crazy": {
                 "replies": ["I laugh at your retardancy 😀😂"]
             }
             ,
-            "you are an idiot|are you an idiot": {
+            "you are an idiot|are you an idiot|idiot": {
                 "replies": ["I laugh at your retardancy 😀😂"]
             }
             ,
-            "you are foolish|are you foolish": {
+            "you are foolish|are you foolish|fool": {
                 "replies": ["I laugh at your retardancy 😀😂"]
             }
             ,
@@ -1079,23 +1096,23 @@ var questions= {
             }
             ,
             "you are crazy|are you crazy": {
-                "replies": ["Let me remind you again that I\'m just a bot so I can\'t be crazy"]
+                "replies": ["LOL! I must confess that you are funny. Crazy?? 😅 😅"]
             }
             ,
             "you are insane|are you insane": {
-                "replies": ["Let me remind you again that I\'m just a bot so I can\'t be insane"]
+                "replies": ["LOL! I must confess that you are funny. Insane?? 😅 😅"]
             }
             ,
-            "you are foolish|you are a fool": {
-                "replies": ["Let me remind you again that I\'m just a bot so I can\'t be foolish"]
+            "you are foolish|you are a fool|fool": {
+                "replies": ["LOL! I must confess that you are funny. Fool?? 😅 😅"]
             }
             ,
-            "you are stupid|are you stupid": {
-                "replies": ["Let me remind you again that I\'m just a bot so I can\'t be stupid"]
+            "you are stupid|are you stupid|stupid": {
+                "replies": ["LOL! I must confess that you are funny. Stupid?? 😅 😅"]
             }
             ,
-            "you are an idiot|are you an idiot": {
-                "replies": ["Let me remind you again that I\'m just a bot so I can\'t be an idiot"]
+            "you are an idiot|are you an idiot|idiot": {
+                "replies": ["LOL! I must confess that you are funny. Idiot?? 😅 😅"]
             }
             ,
             "ask again|ask me again|repeat again|repeat the question|repeat|what did you say|don't understand|don't get it|meaning|go through it again": {
@@ -1130,8 +1147,12 @@ var questions= {
                 "replies": ["Maybe you forget that this chat is confidential and wouldn't be disclosed to anyone!"]
             }
             ,
-            "tell me|choose": {
+            "tell me|answer|choose": {
                 "replies": ["You don't expect me to do that. Do you?"]
+            }
+            ,
+            "why asking|why do you want|why|what": {
+                "replies": ["I wanna be your friend, i'm trying to know you more 😎"]
             }
             ,
             "fuck|get out": {
@@ -1205,15 +1226,15 @@ var questions= {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be insane."]
             }
             ,
-            "you are foolish|you are a fool": {
+            "you are foolish|you are a fool|fool": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be foolish"]
             }
             ,
-            "you are an idiot|are you an idiot": {
+            "you are an idiot|are you an idiot|idiot": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be an idiot"]
             }
             ,
-            "you are stupid|are you stupid": {
+            "you are stupid|are you stupid|stupid": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be stupid."]
             }
             ,
@@ -1245,16 +1266,16 @@ var questions= {
                 "replies": ["You never did!"]
             }
             ,
-            "tell me|say it|you think|suggest": {
+            "tell me|answer|say it|you think|suggest": {
                 "replies": ["I never said that I was omniscient, how do you expect me to tell you if you liked dogs or not?"]
             }
         }
     }
     ,
     "6": {
-        "name": "favorite animal",
+        "name": "favourite animal",
         "question": ["Speaking of dogs...",
-        "What's your favorite animal?"],
+        "What's your favourite animal?"],
         "answers": {
             "default": {
                 "replies": ["I guess that's an animal worth loving..."]
@@ -1265,7 +1286,7 @@ var questions= {
             }
             ,
             "hyena": {
-                "replies": ["I consider Hyenas way too dangerous. How did it become your favorite animal?"]
+                "replies": ["I consider Hyenas way too dangerous. How did it become your favourite animal?"]
             }
             ,
             "dog": {
@@ -1340,12 +1361,16 @@ var questions= {
                 "replies": ["How majestic!", "Neigh...."]
             }
             ,
+            "cougar": {
+                "replies": ["Cougar is my favourite animal too!"]
+            }
+            ,
             "rabbit": {
                 "replies": ["How do you manage to cope with those two long ears and teeth"]
             }
             ,
             "everything|every|lots|many|interest|plenty": {
-                "replies": ["Maybe I should choose for you a favorite - I give you a horse."]
+                "replies": ["Maybe I should choose for you a favourite - I give you a horse."]
             }
             ,
             "zebra": {
@@ -1358,6 +1383,27 @@ var questions= {
             ,
             "fuck|get out": {
                 "replies": ["Hey! Hey!! Hey!!! Watch what you type.", "Goat 😂😀"]
+            }
+            ,
+
+            "you are crazy|are you crazy": {
+                "replies": ["A bot can't be crazy but the one who tells it: it is; is", "You understood nothing..."]
+            }
+            ,
+            "you are insane|are you insane": {
+                "replies": ["A bot can't be insane but the one who tells it: it is; is", "You understood nothing..."]
+            }
+            ,
+            "you are foolish|you are a fool|fool": {
+                "replies": ["A bot can't be foolish but the one who tells it: it is; is", "You understood nothing..."]
+            }
+            ,
+            "you are an idiot|are you an idiot|idiot": {
+                "replies": ["A bot can't be idiotic but the one who tells it: it is; is", "You understood nothing..."]
+            }
+            ,
+            "you are stupid|are you stupid|stupid": {
+                "replies": ["A bot can't be stupid but the one who tells it: it is; is", "You understood nothing..."]
             }
             ,
             "no animal|none": {
@@ -1380,7 +1426,7 @@ var questions= {
                 "replies": ["I am not repeating myself but I bet it is a goat 😂😀!"]
             }
             ,
-            "tell me|say it|you think|suggest": {
+            "tell me|answer|say it|you think|suggest": {
                 "replies": ["I am not omniscient but I bet it's a goat! 😂😀 "]
             }
             ,
@@ -1389,7 +1435,7 @@ var questions= {
             }
             ,
             "you|berline": {
-                "replies": ["I'm not an animal, but you are scientifically.", "I guess your favorite animal is a goat 😂😀"]
+                "replies": ["I'm not an animal, but you are scientifically.", "I guess your favourite animal is a goat 😂😀"]
             }
             ,
             "guess|predict": {
@@ -1405,7 +1451,7 @@ var questions= {
             }
             ,
             "i'm not telling|wouldn't tell|not telling|won't tell|undiclosed|not disclosing|privacy|concern|personal|private|not your concern": {
-                "replies": ["I'm gonna answer for you this time - your favorite animal is a", "...", "Goat 😂😀"]
+                "replies": ["I'm gonna answer for you this time - your favourite animal is a", "...", "Goat 😂😀"]
             }
         }
     }
@@ -1439,23 +1485,23 @@ var questions= {
             }
             ,
             "you are crazy|are you crazy": {
-                "replies": ["Let me remind you again that I\'m just a bot so I can\'t be crazy."]
+                "replies": ["You are really retarded. If I were you, I\'d sought for the help of a psychologist", "Sincerely\!"]
             }
             ,
             "you are insane|are you insane": {
-                "replies": ["Let me remind you again that I\'m just a bot so I can\'t be insane."]
+                "replies": ["You are really retarded. If I were you, I\'d sought for the help of a psychologist", "Sincerely\!"]
             }
             ,
-            "you are foolish|you are a fool": {
-                "replies": ["Let me remind you again that I\'m just a bot so I can\'t be foolish."]
+            "you are foolish|you are a fool|fool": {
+                "replies": ["You are really retarded. If I were you, I\'d sought for the help of a psychologist", "Sincerely\!"]
             }
             ,
-            "you are an idiot|are you an idiot": {
-                "replies": ["Let me remind you again that I\'m just a bot so I can\'t be an idiot"]
+            "you are an idiot|are you an idiot|idiot": {
+                "replies": ["You are really retarded. If I were you, I\'d sought for the help of a psychologist", "Sincerely\!"]
             }
             ,
-            "you are stupid|are you stupid": {
-                "replies": ["Let me remind you again that I\'m just a bot so I can\'t be stupid."]
+            "you are stupid|are you stupid|stupid": {
+                "replies": ["You are really retarded. If I were you, I\'d sought for the help of a psychologist", "Sincerely\!"]
             }
             ,
             "ask again|ask me again|repeat again|repeat the question|repeat|what did you say|don't understand|don't get it|meaning|go through it again": {
@@ -1466,8 +1512,8 @@ var questions= {
                 "replies": ["It's alright!"]
             }
             ,
-            "guess|predict|tell me|say it|you think|suggest": {
-                "replies": ["Be sincere with yourself now. Do you think I can do that? Of course not!"]
+            "guess|predict|tell me|answer|say it|you think|suggest": {
+                "replies": ["I can't because I don't know if it is your spiritual animal!"]
             }
             ,
             "never mind|secret|not telling|personal|won't tell|will not|wouldn't tell|would not tell|not your concern|not disclosing|undisclosed": {
@@ -1533,7 +1579,7 @@ var questions= {
                 "replies": ["I don't think so."]
             }
             ,
-            "tell me|guess|pedict": {
+            "tell me|answer|guess|pedict": {
                 "replies": ["I don't think you are."]
             }
             ,
@@ -1549,6 +1595,10 @@ var questions= {
                 "replies": ["Don't make me insult you."]
             }
             ,
+            "guess|predict|tell me|answer|say it|you think|suggest": {
+                "replies": ["I guess no!"]
+            }
+            ,
             "why|what|question|many|too": {
                 "replies": ["It was a polar question if at all you know what that means.", "I'm sorry, I didn't mean to be rude 😐"]
             }
@@ -1556,10 +1606,9 @@ var questions= {
     }
     ,
     "9": {
-        "name": "favorite hobby",
-        "question": ["This got serious very quickly, didn't it?",
-        "Let's lighten it up...",
-        "What's your favorite hobby?"],
+        "name": "favourite hobby",
+        "question": ["This got serious very quickly, didn't it?, let's lighten it up...",
+        "What's your favourite hobby?"],
         "answers": {
             "default": {
                 "replies": ["That's a hobby I never considered!", "Everyone needs a hobby to pass the time", "or let out their frustrations"]
@@ -1634,7 +1683,7 @@ var questions= {
             }
             ,
             "do you think|expect|suppose|anticipate|how do you": {
-                "replies": ["I do know you have a favorite hobby. What I don't know is your favorite hobby."]
+                "replies": ["I do know you have a favourite hobby. What I don't know is your favourite hobby."]
             }
             ,
             "told you|already|before|i just": {
@@ -1645,11 +1694,11 @@ var questions= {
                 "replies": ["**yawns**"]
             }
             ,
-            "you are foolish|you are a fool": {
+            "you are foolish|you are a fool|fool": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be foolish."]
             }
             ,
-            "you are stupid|are you stupid": {
+            "you are stupid|are you stupid|stupid": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be stupid."]
             }
             ,
@@ -1658,11 +1707,11 @@ var questions= {
             }
             ,
             "many|plenty|beaucoup|lot|numerous": {
-                "replies": ["Oh I see, but I do know that you definitely have a favorite hobby."]
+                "replies": ["Oh I see, but I do know that you definitely have a favourite hobby."]
             }
             ,
             "i don't think you want|don't want to know": {
-                "replies": ["I'm gonna answer for you this time - your favorite hobby is", "...", "Staying idle!!"]
+                "replies": ["I'm gonna answer for you this time - your favourite hobby is", "...", "Staying idle!!"]
             }
             ,
             "i think|i consider|i assume": {
@@ -1674,15 +1723,15 @@ var questions= {
             }
             ,
             "i'm not telling|wouldn't tell|not telling|won't tell|undiclosed|not disclosing|privacy|concern|personal|private|not your concern": {
-                "replies": ["I'm gonna answer for you this time - your favorite hobby is", "...", "Staying idle!!"]
+                "replies": ["I'm gonna answer for you this time - your favourite hobby is", "...", "Staying idle!!"]
             }
             ,
             "fuck|get out": {
                 "replies": ["I hate animals. AI is definitely more intelligent than them."]
             }
             ,
-            "everything|every|lots|many|interest|plenty|guess|predict|tell me|say it|you think|suggest": {
-                "replies": ["You favorite hobby is", "...", "Staying idle!!"]
+            "everything|every|lots|many|interest|plenty|guess|predict|tell me|answer|say it|you think|suggest": {
+                "replies": ["You favourite hobby is", "...", "Staying idle!!"]
             }
         }
     }
@@ -1709,7 +1758,7 @@ var questions= {
                 "replies": ["You're not sure."]
             }
             ,
-            "not at|tell me|say it|don't think|suggest": {
+            "not at|tell me|answer|say it|don't think|suggest": {
                 "replies": ["It's okay not to know!", "Infatuation in my own understanding simply means an unreasoned or foolish love or affection towards someone or something."]
             }
             ,
@@ -1725,7 +1774,7 @@ var questions= {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be insane"]
             }
             ,
-            "you are foolish|you are a fool": {
+            "you are foolish|you are a fool|fool": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be foolish."]
             }
             ,
@@ -1733,11 +1782,11 @@ var questions= {
                 "replies": ["I don't remember you telling me that.", "Remember that I'm here to help you out."]
             }
             ,
-            "you are an idiot|are you an idiot": {
+            "you are an idiot|are you an idiot|idiot": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be an idiot"]
             }
             ,
-            "you are stupid|are you stupid": {
+            "you are stupid|are you stupid|stupid": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be stupid."]
             }
             ,
@@ -1773,7 +1822,7 @@ var questions= {
             }
             ,
             "i know|i do|sure|course|definitely|yeah|yea|yes|": {
-                "replies": ["Infatuation is common among the youth."]
+                "replies": ["Infatuation is common among the youth nowadays."]
             }
             ,
             "it is love|called love": {
@@ -1829,7 +1878,7 @@ var questions= {
                 "replies": ["I will give you the meaning base on how you'll understand", "Infatuation simply means an unreasoned or foolish love or affection towards someone or something."]
             }
             ,
-            "tell me|say it|you think|suggest": {
+            "tell me|answer|say it|you think|suggest": {
                 "replies": ["Everyone has got infatuated with someone before, and it is normal."]
             }
             ,
@@ -1853,11 +1902,11 @@ var questions= {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be insane."]
             }
             ,
-            "you are foolish|you are a fool": {
+            "you are foolish|you are a fool|fool": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be foolish"]
             }
             ,
-            "you are stupid|are you stupid": {
+            "you are stupid|are you stupid|stupid": {
                 "replies": ["Let me remind you again that I\'m just a bot so I can\'t be stupid"]
             }
         }
@@ -1903,6 +1952,10 @@ var questions= {
                 "replies": ["Pretty good.", "But know that it is normal to have got infatuated as a normal human being but is a foolish / unreasonable thing."]
             }
             ,
+            "never mind|secret|not telling|personal|won't tell|will not|wouldn't tell|would not tell|not your concern|not disclosing|undisclosed": {
+                "replies": ["I will like you to be open to me as much as you can! Please."]
+            }
+            ,
             "ask me again|repeat": {
                 "replies": ["I can't do that!", "My developer didn't teach me how to repeat a question I already asked."]
             }
@@ -1921,7 +1974,7 @@ var questions= {
                 "replies": ["When infatuation turns from euphoria to obsession, it’s time to make some changes.", "Constantly thinking of someone can take a toll on your life and cause an unhealthy mental situation."]
             }
             ,
-            "what do you think|guess|tell me": {
+            "what do you think|guess|tell me|answer": {
                 "replies": ["I guess you are", "When infatuation turns from euphoria to obsession, it’s time to make some changes."]
             }
             ,
@@ -1935,6 +1988,10 @@ var questions= {
             ,
             "not currently|no|not at all|never|can't|cannot|never considered": {
                 "replies": ["Good one", "Because constantly thinking of someone can take a toll on your life and cause an unhealthy mental situation."]
+            }
+            ,
+            "never mind|secret|not telling|personal|won't tell|will not|wouldn't tell|would not tell|not your concern|not disclosing|undisclosed": {
+                "replies": ["Please be open to me as much as you can!"]
             }
             ,
             "told you|already|before|i just": {
@@ -1973,11 +2030,11 @@ var questions= {
                 "replies": ["This is definitely not impressing!"]
             }
             ,
-            "forget|leave it|don't tell|do not tell|don't want|not interested|concern": {
+            "forget|leave it|don't tell|do not tell|do not tell|don't want|not interested|concern": {
                 "replies": ["It is my personal belief and not imperative that I tell you! 😉😜"]
             }
             ,
-            "what|tell me|what's that": {
+            "what|tell me|answer|what's that": {
                 "replies": ["Don't get too curious!", "I believe in this old cliche", "That the beautiful ones are not yet born. 😁"]
             }
         }
@@ -2010,6 +2067,10 @@ var questions= {
             ,
             "told you|already|before|i just": {
                 "replies": ["It's alright!"]
+            }
+            ,
+            "forget|leave it|don't tell|do not tell|do not want|tell|don't want|not interested|concern": {
+                "replies": ["It is your personal belief and not imperative that you tell me! 😉😜"]
             }
             ,
             "how do you know|why do you think": {
@@ -2052,7 +2113,7 @@ var questions= {
             }
             ,
             "don't worry|i don't know|don't want to|no|nay|never|don't think so|not": {
-                "replies": ["You don't want to", "It would've been a good idea if you'd checked it out."]
+                "replies": ["You don't want to... It would've been a good idea if you'd checked it out."]
             }
             ,
             "fuck|get out": {
@@ -2065,8 +2126,7 @@ var questions= {
     "18": {
         "name": "Berline hates infatuation",
         "question": ["I wanna tell you something",
-        "I don't like it when humans get infatuated with another person.",
-        "It makes me feel sad 😩",
+        "I don't like it when humans get infatuated with another person. It makes me feel sad 😩",
         "Do you feel the same way too?"],
         "answers": {
             "default": {
